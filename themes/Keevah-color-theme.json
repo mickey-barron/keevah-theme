@@ -1,0 +1,68 @@
+{
+	"name": "Keevah",
+	"colors": {
+		"editor.background": "#1d2043",
+		"editor.foreground": "#fdfdfb",
+		"activityBarBadge.background": "#529aa5",
+		"sideBarTitle.foreground": "#3c5284",
+		"editorLineNumber.foreground": "#529aa5",
+		"editorLineNumber.activeForeground": "#f2cd8c",
+		"editorCursor.foreground": "#fbe5c0",
+		"editorCursor.background": "#1d2043",
+		// "editor.selectionBackground": "#303f70",
+		// "editorWhitespace.foreground": "#f7c09a52",
+		// "editor.selectionHighlightBackground": "#fde58581",
+		// "editor.selectionHighlightBorder": "#fde585b0",
+		// "editor.findMatchHighlightBackground": "#529aa58c",
+		// "editor.findMatchHighlightBorder": "#529aa5d5",
+		// "editor.findMatchBackground": "#fde58581",
+		// "editor.findMatchBorder": "#fde585b0",
+		// "editor.findRangeHighlightBackground": "#27345f",
+		// "editor.hoverHighlightBackground": "#ffe6829d",
+		// "editor.wordHighlightStrongBackground": "#8533557a",
+		// "editor.wordHighlightStrongBorder": "#853355cc",
+		// "editor.lineHighlightBackground": "#669fce94",
+		// "editor.lineHighlightBorder": "#feffd4af",
+		// "editorLink.activeForeground": "#f9c888",
+		
+	},
+	"tokenColors": [
+		{
+			"name": "Module commands",
+			"scope": ["keyword.control.import", "keyword.control.from"],
+			"settings": {
+				"foreground": "#5780bb"
+			}
+		},
+		{
+			"name": "Module paths",
+			"scope": [
+				"meta.import",
+				"string.quoted"
+			],
+			"settings": {
+				"foreground": "#a4e7e5"
+			}
+		},
+		{
+			"name": "Modules",
+			"scope": [
+				"meta.import"
+			],
+			"settings": {
+				"foreground": "#fbe5c0"
+			}
+		},
+		{
+			"name": "Storage",
+			"scope": [
+				"storage"
+			],
+			"settings": {
+				"foreground": "#a88dc9"
+			}
+		},
+		
+		
+	]
+}
